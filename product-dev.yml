@@ -6,11 +6,11 @@ spring:
     username: root
   jpa:
     show-sql: true
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  #rabbitmq:
+  # host: localhost
+  #  port: 5672
+  #  username: guest
+  #  password: guest
     
 logging:
-  config: classpath:logback-prod.xml
+  config: classpath:logback-dev.xml
